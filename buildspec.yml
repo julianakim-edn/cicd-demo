@@ -4,13 +4,9 @@ phases:
   install:
     runtime-versions:
       nodejs: 18
-    commands:
-      - echo "Installing dependencies..."
-      - npm install || true
   build:
     commands:
-      - echo "Zipping source code..."
-      - zip -r build.zip index.js
+      - echo "Empacotando função Lambda"
 artifacts:
   files:
-    - build.zip
+    - index.js
