@@ -6,7 +6,7 @@ phases:
       nodejs: 22
   build:
     commands:
-      - echo "Empacotando função Lambda"
+      - echo "Empacotando a função Lambda"
 artifacts:
   files:
     - index.js
